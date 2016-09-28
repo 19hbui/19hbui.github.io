@@ -7,63 +7,12 @@ body {
     padding: 0;
 }
 
-img {
-    border: 2px solid black;
-}
-
-table {
-    margin: auto;
-    background-color:white;
-    color: black;
-    border: 2px double black;
-    border-collapse: collapse;
-    font-size: 16px;
-}
-
-tr {
-    border: 1px solid black;
-}
-
-th {
-    text-align: center;
-}
-
-ul {
-    width: 200px;
-    background-color: white;
-    color: black;
-    border: 2px double black;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-position: inside;
-    text-align: left;
-}
-
-ol {
-    background-color: white;
-    color: black;
-    border: 2px double black;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-position: inside;
-    text-align: left;
-}
-
 h1 {
     font-size: 38px;
     font-family: 'Holtwood One SC', serif
 }
 
-h2 {
-    font-family: 'Russo One', sans-serif;
-    font-style: oblique;
-    font-size: 32px;
-}
-
-
 .nav ul {
-  position: fixed;
   width: 100%;
   list-style: none;
   background-color: #B20000;
@@ -75,6 +24,7 @@ h2 {
   border-top: solid 2px black;
   border-bottom: solid 2px black;
   font-family: 'Exo', sans-serif;
+  position: fixed;
 }
 
 .nav li {
@@ -87,7 +37,7 @@ h2 {
  
 .nav a {
   text-decoration: none;
-  color: #E5E5E5;
+  color:#E5E5E5;
   display: block;
   transition: .3s background-color;
 }
@@ -98,8 +48,8 @@ h2 {
 }
  
 .nav active {
-  background-color:#B7B7B7;
-  color: #B20000;
+  background-color: #B7B7B7;
+  color: #444;
 }
  
 @media screen and (min-width: 600px) {
@@ -116,4 +66,3 @@ h2 {
     display: inline-block;
     margin-right: -4px;
 }
-
