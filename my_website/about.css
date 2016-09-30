@@ -2,7 +2,8 @@ body {
     text-align: center;
     color: white;
     font-family: 'Arvo', serif;
-    background-image: url("images/background.jpg");
+    background-image: url("images/polygon.png"), url("polygon2.png");
+    background-position: center top, center bottom;
     margin: 0;
     padding: 0;
 }
@@ -117,3 +118,11 @@ h2 {
     margin-right: -4px;
 }
 
+#body {
+  margin: auto;
+  width: 80%;
+  background-image: url('images/background.jpg');
+  border: solid 4px #E5E5E5;
+  background-repeat: no-repeat;
+  outline: solid 2px black;
+}
